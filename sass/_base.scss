@@ -1,0 +1,39 @@
+
+/*------reset----*/
+* {
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+/*----variables---*/
+$colorPrincipal: rgb(121, 6, 96);
+$colorSecundario: black;
+$textoPrincipal: 'Pacifico';
+
+/*-----stilosbase----*/
+img{
+    display: block;
+    width: 100%;
+    min-width: 100%;
+}
+h1, h2, h3, h4, h5, h6{
+    margin: 0;
+}
+.container {
+    width: 100%;
+    margin: auto;
+    
+    &--flex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+
+.column {
+    width: 100%;
+}

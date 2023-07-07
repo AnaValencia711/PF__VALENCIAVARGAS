@@ -1,0 +1,30 @@
+.main-footer{
+    font-family: 'Inconsolata';
+    background: #222;
+    color:white;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: .8em;
+    & [class*="fa-"]{
+        font-size: 20px;
+        color: white;
+        text-decoration: none;
+    
+    }
+    & [class*="fa-"]:before{
+        position: relative;
+        top: 3px;
+        right: 5px;
+    }
+}
+
+.copy{
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.column__title{
+    font-size: 25px;
+}

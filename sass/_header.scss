@@ -1,0 +1,102 @@
+.main-header{
+  
+    width: 100%;
+    .logo {
+        font-family: $textoPrincipal;
+        font-size: 30px;
+        font-style: 3em;
+        color:$colorPrincipal;
+        -webkit-text-stroke: 0.3px white;
+        padding: 10px;
+    }
+    &__contactInfo__phone {
+        background: $colorPrincipal;
+        color:white;
+        margin: 0 auto;
+        padding: 10px;
+    
+    }
+    &__contactInfo__address {
+        padding: 10px;
+        margin: 0;
+    }
+    &[class*="fa-"]:before {
+        position: relative;
+        top: 2px;
+        right: 5px;
+    
+    }
+}
+
+
+
+/*---Estilos del menu---*/
+.main-nav{
+    width: 100%;
+    position: relative;
+    z-index: 2000;
+    padding: 10px;
+}
+.fa-bars{
+    display: block;
+    color: white;
+    border: 2px solid white;
+    border-radius: 3px;
+    width: 40px;
+    height: 35px;
+    line-height: 45px;
+    text-align: center;
+    cursor: pointer;
+    font-style: 5em;
+    font-size: 28px;
+
+}
+.social-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.social-icon [class*="fa-"]{
+    color: $colorSecundario;
+    margin-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: 1.3em;
+    width: 35px;
+    height: 35px;
+    background: white;
+    border-radius: 50%;
+}
+.social-icon__link{
+    text-decoration: none;
+}
+.menu{
+    font-family: 'Inconsolata';
+    position: absolute;
+    top:60px;
+    left: 0;
+    width: 100%;
+    background: rgba(0,0,0,.60);
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    height: 0;
+    overflow:hidden;
+    transition: height .3s linear;
+}
+.menu__link{
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+}
+.menu__link:hover{
+    background: $colorPrincipal;
+}
+.menu__link--select{
+    background: $colorPrincipal;
+}
+.mostrar{
+    height: 270px;
+}

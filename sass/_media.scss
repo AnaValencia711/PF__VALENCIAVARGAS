@@ -1,0 +1,120 @@
+
+@media screen and (min-width:480px){
+    .logo{
+        color: white;
+    }
+    .main-header__contactInfo{
+        text-align: right;
+    }
+    .banner{
+        margin-top: -145px;
+        z-index: -1000;
+    }
+    .banner__content{
+        font-size: 2.5em;
+    }
+    .carousel{
+        margin-top: -145px;
+        z-index: -1000;
+    }
+    .main-header__contactInfo__phone{
+        background: none;
+    }
+    .main-header__contactInfo__address{
+        color: white;
+    }
+    .column--50{
+        width:49%;
+    }
+    .main-nav{
+        background: rgba(0, 0, 0, 45);
+    }
+    .column--33{
+        width: 32%;
+    
+    }
+    .column__title{
+        text-align: center;
+    }
+    .our-team__img{
+        width: 150px;
+        height: 150px;
+    }
+    .container .container--flex{
+        align-items: flex-start;
+    }
+    .contact-information p{
+        font-size: 0.8em;
+    }
+    .contact-information{
+        border-right: 1px solid $colorPrincipal;
+        border-bottom: none;
+    }
+
+    
+}
+
+@media screen and (min-width:768px){
+    .container .container--flex{
+        align-items: flex-start;
+    }
+    .contact-information p{
+        font-size: 1em;
+    }
+    .contact-information .column__title{
+        font-style: 1.5em;
+    }
+    .our-team__img{
+        width: 220px;
+        height: 220px;
+    }
+    
+}
+@media screen and (min-width:1024px) {
+    .container{
+        width: 1000px;
+    }
+    .logo{
+        font-size: 2em;
+        padding: 0;
+    }
+    .main-header__contactInfo__phone,
+    .main-header__contactInfo__address{
+        padding-right: 0;
+        font-size: 1em;
+    }
+    .main-nav{
+        padding: 0;
+    }
+    .banner__content{
+        font-family: 'Inconsolata';
+        font-style: 3em;
+    }
+    #btnmenu {
+        display: none;
+    }
+    .menu{
+        position: sticky;
+        display: flex;
+        height: auto;
+        width: auto;
+    }
+    .menu__link{
+        padding: 20px;
+    }
+    .our-team__img{
+        width: 310px;
+        height: 310px;
+    }
+    .our-team__title{
+        font-style: 2.5em;
+    }
+    }
+
+@media screen and (min-width:1600px){
+    .our-team__img{
+        width: 420px;
+        height: 420px;
+    }
+    
+}

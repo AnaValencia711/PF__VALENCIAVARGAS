@@ -1,0 +1,72 @@
+.formulario_cuenta{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    flex-direction: column;
+    background: #fff;
+    text-align: center;
+    padding: 20px 2;
+    margin: 50px;
+    & .title_login{
+        color: $colorSecundario;
+        font-style: 35px;
+        font-weight: 800;
+        margin-bottom: 30px;
+        font-family: $textoPrincipal;
+    }
+    & label{
+        margin-bottom: 35px;
+    }
+    & label .fa-solid{
+        font-style: 20px;
+        margin-right: 10px;
+    }
+    & label input{
+        outline: none;
+        border: none;
+        color: $colorSecundario;
+        border-bottom: 1px solid $colorSecundario;
+        padding: 0 5px;
+        font-style: 18px;
+    }
+    & link{
+        color: $colorSecundario;
+        margin-bottom: 15px;
+    }
+    & button{
+        background-size: 2em;
+        color: #fff;
+        border: none;
+        background: linear-gradient(to right, #cb232c, #ce1d61);
+        padding: 10px 5px;
+        cursor: pointer;
+        font-style: 20px;
+        margin-top: 10px;
+    }
+}
+
+.formulario{
+    padding: 10px;
+    padding-top: 0;
+    &__label, &__input-txt, &__textarea{
+        display: block;
+        padding-top: 0;
+    }
+        &__input-txt{
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        &__textarea{
+            min-height: 100px;
+            min-width:100%;
+            min-width: 100%;
+            max-height: 200px;
+        }
+        &__btn{
+            border: none;
+            cursor: pointer;
+            font-style: 1em;
+        }
+}

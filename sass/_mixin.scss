@@ -1,0 +1,53 @@
+@mixin mensajeria{
+    vertical-align: top;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 25px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    animation-name: aniwapp;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes aniwapp{
+    0%{
+        transform:scale(1, 1)rotate(0deg);
+    }
+    50% {
+        transform:scale(0.85, 0.85)rotate(5deg);
+    }
+}
+
+
+.mensajeria .btn-wsp {
+    @include mensajeria;
+    margin: 10px 20px;
+    background: #0df053;
+    color: #fff;
+
+    &:hover{
+        text-decoration: none;
+        color: #0df053;
+        background: #fff;
+    }
+
+}
+.mensajeria .btn-msn{
+    @include mensajeria;
+    margin: 65px 20px;
+    background: #3b9be9;
+    color: #fff;
+    &:hover{
+        text-decoration: none;
+        color: #3b9be9;
+        background: #fff;
+    }
+}
